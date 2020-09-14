@@ -22,7 +22,7 @@ cargarProducto: async (req , res) => {
        
     
       newProducto.save()
-      return res.json({message:"el producto fue cargado exitosamente"});
+      return res.json({newProducto});
 
         
 },
