@@ -19,9 +19,10 @@ router.route("/")
         .post(
             verificarStock,
             VerificarPago,
-             VentaController.cargarVenta,
-             CarritoController.actualizarCarrito,
-             ProductoController.actualizarStock,
-             EmailController.emailVenta)       
+        //      VentaController.cargarVenta,
+        //      CarritoController.actualizarCarrito,
+        //      ProductoController.actualizarStock,
+        )
+             //      EmailController.emailVenta)       
 
 module.exports = router;
